@@ -19,3 +19,16 @@ print(check.find("o"))  #its find the character and returns its index
 
 print(check.replace("o", "e"))  #its replace the old character with new one
 
+print(check.lower())        #its convert all characters in to lower case
+
+print(check.upper())         #its convert all characters in to upper case
+
+print(check.replace("desktop","monitor"))  #its replace the old word with the new word
+
+print(len(check))       #length of the variable
+
+print(len(check.center(50))) #length of the variable after check()
+
+print(check.center(50,"."))
+
+
