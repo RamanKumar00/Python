@@ -24,5 +24,5 @@ a=200
 b=33
 c=500
 if a>b or a>c:
-    print("at leat onr statement is true")
+    print("at least onr statement is true")
 
