@@ -23,3 +23,26 @@ print(tea_varities)
 
 for tea in tea_varities:
     print(tea, end="-")
+
+tea_varities.append("Oolong") # it add in the last of the list 
+
+if "Oolong" in tea_varities:
+    print('I have Oolong Tea')
+
+tea_varities.pop() # it remove the last string from the list
+print(tea_varities)
+
+tea_varities.remove("Masala") #it removes the specific tring from the list
+print(tea_varities)
+
+tea_varities.insert(1,"Red")
+print(tea_varities)
+
+tea_varities_copy = tea_varities.copy() #it copy two variable with same reference point 
+tea_varities_copy.append("Lemon Tea")
+print(tea_varities_copy)
+print(tea_varities)
+
+tea_varities_copy = tea_varities #it copy same thing in both variable
+tea_varities_copy.append("Lemon Tea")
+print(tea_varities)
