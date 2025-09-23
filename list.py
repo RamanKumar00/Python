@@ -46,3 +46,9 @@ print(tea_varities)
 tea_varities_copy = tea_varities #it copy same thing in both variable
 tea_varities_copy.append("Lemon Tea")
 print(tea_varities)
+
+Squared_num = [x**2 for x in range(10)] # it just calculate the square in the specific range 
+print(Squared_num)
+
+cubic_num = [x**3 for x in range(10)]
+print(cubic_num)
